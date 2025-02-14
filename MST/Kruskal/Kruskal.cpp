@@ -45,8 +45,8 @@ int kruskal() {
 			edgeCount++;
 		}
 
-		if (edgeCount == n - 1) break;
+		if (edgeCount == n - 1) return sum;
 	}
 
-	return sum;
+	return -1; //만들기 실패(연결 불가한 노드 존재)
 }
