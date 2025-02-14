@@ -7,6 +7,9 @@ using namespace std;
 int root = 1;
 int n; // #node
 const int LOG = 17;
+// 최대 노드(N) 수 보다 큰 가장 작은 2^n 값을 선택
+// c.f. 2^15 < N=50000 < 2^16
+// c.f. 2^16 < N=100000 < 2^17
 
 vector<vector<int>> adjList(n+1);
 vector<int> depth(n + 1);
