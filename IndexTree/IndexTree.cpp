@@ -16,11 +16,11 @@ int find_sum(int a, int b) {
   while (left <= right) {
     if (left % 2 != 0) {
       sum += tree[left];
-      left /= 2;
+      left++;
     }
     if (right % 2 == 0) {
       sum += tree[right];
-      right /= 2;
+      right--;
     }
 
     left /= 2;
