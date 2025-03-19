@@ -1,13 +1,13 @@
-## 트리(Tree)
+### 트리(Tree)
 
 무향 그래프 G가 순환이 없는 연결그래프이면, G는 트리
 노드가 n개이면 간선은 n-1개
 
-## 신장 트리(Spanning Tree)
+### 신장 트리(Spanning Tree)
 
 무향 연결 그래프 G의 부분그래프이고, G의 모든 정점을 포함하는 트리인 그래프
 
-## 최소 신장 트리 (Minimum Spanning Tree/MST)
+### 최소 신장 트리 (Minimum Spanning Tree/MST)
 
 무향 연결 가중 그래프 G에서 간선의 가중치 합이 최소인 신장 트리
 
